@@ -89,7 +89,7 @@
     display: flex;
     gap: 10px;
 }
-/* .addcart button{
+.addcart button{
     background-color: black;
     color: white;
     border-radius: 10px;
@@ -106,7 +106,7 @@
     max-width: 1200px;
     justify-content: center;
     margin: 0 auto;
-} */
+}
 .box{
     border: 3px solid rgb(219, 213, 213);
     display: flex;
