@@ -1,0 +1,174 @@
+.cart{
+    display: flex;
+    margin: 0px 50px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.cartheading{
+    text-align: center;
+    font-size: 25px;
+}
+.cartline{
+     margin: 0 100px;
+    color: gray;
+    font-size:35px;
+    text-align: center;
+}
+.listitems{
+    border: 2px solid black;
+    width: 1300px;
+border-radius: 5px;
+}
+.listitems p, .orderheading p{
+    font-size: 35px;
+    font-weight: bold;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    height: fit-content;
+    padding: 20px 5px;
+}
+.details img{
+    height: 200px;
+    width: 200px;
+}
+.details p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.itemquantityandrate{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.itemquantityandrate p{
+    font-size: 20px;
+    color: gray;
+}
+.increment{
+    display: flex;
+    gap: 70px;
+}
+.increment button{
+    border: none;
+    background: none;
+    font-size: 30px;
+}
+.rate p{
+    text-align: center;
+    color:black;
+}
+.ordersummary{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 400px;
+    height: fit-content;
+}
+.Summary{
+    display: flex;
+    flex-direction: column;
+}
+.cartProducts{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.cartshipping{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.carttotal{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px; 
+}
+.displayitems ,.orderheading{
+    background-color: rgb(204, 195, 195);
+    padding: 20px;
+    margin: 0px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.listitems hr, .ordersummary hr{
+    margin: 0;
+}
+.cartProducts p, .cartshipping{
+    font-size: 30px;
+}
+.carttotal{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.checkout button{
+    text-align: center;
+    justify-content: center;
+    margin-left: 90px;
+    width: 190px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.empty h1{
+    margin-left: 600px;
+    font-size: 70px;
+}
+.empty button{
+    margin-left: 750px;
+    font-size: 25px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 8px;
+}
+@media (max-width:426px) {
+    .empty h1{
+    margin-left:40px;
+    font-size: 30px;
+    }
+    .empty button{
+    margin-left: 90px;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.details img{
+    height: 100px;
+    width: 100px;
+}
+.details p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.increment{
+    display: flex;
+    gap: 43px;
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.listitems{
+    width: fit-content;
+}
+.cartProducts p, .cartshipping{
+    font-size: 20px;
+}
+.carttotal{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+}
+

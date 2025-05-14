@@ -1,0 +1,431 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+.navbar p {
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.controls button{
+    font-size: 25px;
+    border: none;
+    background:none;
+    color: gray;
+    padding: 15px;
+    cursor: pointer;
+}
+.controls button:hover{
+    color: black;
+}
+
+.buttons button{
+    font-size: 20px ;
+    border-radius: 8px;
+    color: gray;
+    background: none;
+    padding: 5px 10px;
+    height: fit-content;
+    gap: 20px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: black;
+    color: white;
+
+}
+.homeimage{
+    background-image: url("/images/main.png.jpg");
+    height: 700px; 
+}
+.content{
+    padding: 320px 50px;
+    color: white;
+    font-size: 41px;
+}
+.content h1{
+    font-size: 70px;
+}
+.latestproducts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: gray;
+}
+.Productbtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.Productbtns button{
+    font-size: 20px;
+    padding: 10px;
+    background: none;
+    border-radius: 8px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.Productbtns button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.items{
+    margin: 0px 100px;
+    color: gray;
+    
+}
+.addcart{
+    display: flex;
+    gap: 10px;
+}
+.addcart button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 10px;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.box{
+    border: 3px solid rgb(219, 213, 213);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    width: fit-content;
+    font-size: 23px;
+}
+.box img{
+    height: 350px;
+    width: 400px;
+}
+.container hr{
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: black;
+    margin: 10px 0;
+}
+.Achievers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.clr{
+    color: red;
+}
+.Aboutheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.hrline{
+    margin: 0 100px;
+    color: gray;
+    font-size:35px;
+    text-align: center;
+    
+}
+.ourheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+.aboutpic{
+    border: 2px solid gray;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: fit-content;
+    
+
+}
+.aboutpic img{
+    height: 380px;
+    width: 340px;
+}
+.aboutimage{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    overflow: hidden;
+}
+@media (max-width:426px) {
+    *{
+        margin: 5px 0px;
+    }
+    .home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.controls button{
+    font-size: 20px;
+    padding: 10px;
+    gap: 20px;
+}
+.buttons{
+    gap: 20px !important;
+}
+.buttons button{
+    font-size: 15px ;
+    border-radius: 4px;
+    padding: 3px 5px;
+    height: fit-content;
+    gap: px;
+}
+.homeimage{
+    width: 400px
+}
+.content{
+    padding: 150px 30px;
+    color: white;
+    font-size: 21px;
+}
+.content h1{
+    font-size: 30px;
+}
+.latestproducts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+    color: gray;
+}
+.Productbtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Productbtns button{
+    font-size: 15px;
+    padding: 10px;
+    background: none;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+.box img{
+    height: 300px;
+    width: 300px;
+}
+.container{
+    grid-template-columns: repeat(1,1fr);
+    
+}
+.Achievers{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.clr{
+    color: red;
+}
+.Aboutheading{
+    font-size: 13px;
+}.hrline{
+    font-size:15px;
+    margin: 0px 50px;
+}
+.ourheading{
+    font-size: 15px;
+}
+.aboutpic img{
+    height: 300px;
+    width: 400px;
+}
+.aboutimage{
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+}
+.Contactheading{
+    font-size: 15px !important;
+}
+.Contactline{
+    margin: 0 50px !important;
+}
+.contentdetails input {
+    font-size: 15px !important;
+}
+.contentdetails{
+    font-size: 25px !important;
+}
+textarea{
+    font-size: 15px !important;
+}
+.loginheading{
+    font-size: 15px !important;
+}
+.loginline{
+    margin: 0 50px !important;
+}
+.logindetails input{
+    font-size: 19px !important;
+}
+.para{
+    font-size: 25px;
+    margin-left:19px !important;
+}
+.registerbtn{
+    margin-left: 150px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+}
+
+.Contactheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+.Contactline{
+    margin: 0 100px;
+    color: gray;
+    font-size:35px;
+    text-align: center;
+}
+.contentdetails{
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+
+}
+.contentdetails input {
+    font-size: 25px;
+    width: 390px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 9px;
+    border: 2px solid grey;
+}
+textarea{
+    width: 390px;
+    height: 170px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    font-size: 25px;
+    color: grey;
+    padding-left: 10px;
+}
+.contentdetails label{
+    margin-right: 320px;
+}
+.message{
+    margin-left: 35px;
+}
+.sendbtn{
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(36, 34, 34);
+
+}
+.loginheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+.loginline{
+    margin: 0 100px;
+    color: gray;
+    font-size:35px;
+    text-align: center;
+
+}
+.logindetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+
+}
+.logindetails input{
+    font-size: 25px;
+    width: 390px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 9px;
+    border: 2px solid grey;
+
+}
+.logindetails label{
+    margin-right:220px ;
+}
+.logindetails .Loginpassword {
+    margin-right:270px
+}
+.para{
+    font-size: 25px;
+    margin-left:760px;
+}
+.registerbtn{
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(36, 34, 34);
+    margin-left: 890px;
+}
+.logindetails .fullname{
+    margin-right: 260px;
+}
+

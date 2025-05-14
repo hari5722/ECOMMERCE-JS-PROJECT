@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/CSS/ecommerce.css">
+    <link rel="stylesheet" href="/CSS/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"></head>
+<body>
+    <div class="home">
+        <div class="navbar">
+            <p>Ecommerce</p>
+        </div>
+        <div class="controls">
+            <button>Home</button>
+            <button onclick="window.location.href='Products.html'">Products</button>
+            <button onclick="window.location.href='about.html'">About</button>
+            <button onclick="window.location.href='contact.html'">Contact</button>
+        </div>
+        <div class="buttons">
+            <button onclick="window.location.href='login.html'"><i class="fa-solid fa-right-to-bracket"></i> Login</button>
+            <button onclick="window.location.href='register.html'"><i class="fa-solid fa-user-plus"></i> Register</button>
+            <button onclick="window.location.href='cart.html'"><i class="fa-solid fa-cart-shopping"></i>
+                <span>Cart(<span id="cart-count">0</span>)</span></button>
+        </div>
+    </div>
+    <div class="homeimage">
+        <div class="content">
+            <h1>New Season Arrivals</h1>
+            <p>This is a wider card with supporting text below as a natural lead-in to additional content.This content is a <br>
+                little bit longer.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="latestproducts">
+        <h1>Latest Products</h1>
+    </div>
+    <div class="items">
+        <div>
+            <hr>
+        </div>
+        <div class="Productbtns">
+            <button  data-category="all">All</button>
+            <button data-category="men's clothing">Men's Clothing</button>
+            <button data-category="women's clothing">Women's Clothing</button>
+            <button data-category="jewelery">jewelery</button>
+            <button data-category="electronics">Electronic</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id="Products-container" class="container">
+    </div>
+    <h3 class="Achievers">Made with <i class="fa-solid fa-heart clr "></i> by Harikrishna</h3>
+    <br><br>
+    <script src="/JS/ecommerce.js"></script>
+    <script src="/JS/homecart.js"></script>
+    <script src="/JS/cart.js"></script>    
+</body>
+</html>
