@@ -85,7 +85,6 @@ function addToCart(product) {
     localStorage.setItem('cart', JSON.stringify(cart));
 }
 // homecart.js
-// homecart.js
 
 function updateCartCount() {
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
